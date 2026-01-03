@@ -2,6 +2,10 @@ import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 #modloaded biomesoplenty
 
+# Remove biome essence ore
+	rh(<biomesoplenty:biome_block>);
+	rh(<biomesoplenty:biome_essence>);
+
 # Poison bucket recipe fix (bucket could be duped)
 	recipes.remove(<forge:bucketfilled>.withTag({FluidName: "poison", Amount: 1000}));
 	recipes.addShapeless("biomesoplenty_forge_bucketfilled_poison_dupefix", <forge:bucketfilled>.withTag({FluidName: "poison", Amount: 1000}), 
