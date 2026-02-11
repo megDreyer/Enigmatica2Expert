@@ -1,4 +1,24 @@
-## Enigmatica 2: Expert Changelog 1.91
+### Enigmatica 2: Expert Changelog
+
+## 1.92
+
+### ✔️ New Mods
+
+### ❌ Removed Mods
+
+- TexFix (Caused most Tinkers tools to appear white)
+
+### ✨ Improvements
+
+- New main menu images!
+
+### 🦟 Bugs Fixed
+
+- Tinkers tools having the wrong color
+
+---
+
+## 1.91
 
 Ha-harh! I bet you weren't expecting another update! 😄
 
@@ -18,20 +38,18 @@ _Forge-1.12.2-14.23.5.2860_ | _[Modlist](https://github.com/NillerMedDild/Enigma
 
 ---
 
-### Enigmatica 2: Expert Changelog
-
 ## 1.90h
 
 _Forge-1.12.2-14.23.5.2860_ | _[Modlist](https://github.com/NillerMedDild/Enigmatica2Expert/blob/master/changelogs/modlist_1.90h.md)_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica2Expert/blob/master/changelogs/CHANGELOG_MODS_1.90h.md)_
 
 **Fixed bugs**
 
--   Crash on startup when using older java versions [\#2146](https://github.com/EnigmaticaModpacks/Enigmatica2Expert/issues/2177)
+- Crash on startup when using older java versions [\#2146](https://github.com/EnigmaticaModpacks/Enigmatica2Expert/issues/2177)
 
 **Improvements**
 
--   Change inventory panel recipe to be friendlier to earlygame [\#2172](https://github.com/EnigmaticaModpacks/Enigmatica2Expert/pull/2172) by ([ghatus0](https://github.com/ghatus0))
--   Add bat spawn egg recipe to market [\#2164](https://github.com/EnigmaticaModpacks/Enigmatica2Expert/pull/2164) by ([Risa-G](https://github.com/Risa-G))
+- Change inventory panel recipe to be friendlier to earlygame [\#2172](https://github.com/EnigmaticaModpacks/Enigmatica2Expert/pull/2172) by ([ghatus0](https://github.com/ghatus0))
+- Add bat spawn egg recipe to market [\#2164](https://github.com/EnigmaticaModpacks/Enigmatica2Expert/pull/2164) by ([Risa-G](https://github.com/Risa-G))
 
 ---
 
@@ -41,22 +59,22 @@ _Forge-1.12.2-14.23.5.2860_ | _[Modlist](https://github.com/NillerMedDild/Enigma
 
 **Added mods**
 
--   [SerializationIsBad](https://www.curseforge.com/minecraft/mc-mods/serializationisbad) (by [Dogboy21](https://www.curseforge.com/members/Dogboy21/projects))
+- [SerializationIsBad](https://www.curseforge.com/minecraft/mc-mods/serializationisbad) (by [Dogboy21](https://www.curseforge.com/members/Dogboy21/projects))
 
 **Removed mods**
 
--   [JustTheTips](https://www.curseforge.com/minecraft/mc-mods/justthetips) (by [DeflatedPickle](https://www.curseforge.com/members/DeflatedPickle/projects)) (The files were removed from CurseForge)
+- [JustTheTips](https://www.curseforge.com/minecraft/mc-mods/justthetips) (by [DeflatedPickle](https://www.curseforge.com/members/DeflatedPickle/projects)) (The files were removed from CurseForge)
 
 **Fixed bugs**
 
--   Fixed a security issue, by adding the mod SerializationIsBad [\#2146](https://github.com/EnigmaticaModpacks/Enigmatica2Expert/issues/2146)
--   Game crashes when you try to bucket Biomes O' Plenty poison [\#2143](https://github.com/EnigmaticaModpacks/Enigmatica2Expert/issues/2143)
--   Disable Cyclic fluid poison, to make BoPs the default one as it generates in world and causes crashes otherwise
--   Replace Shifting Star in a few recipes that could be uncraftable on servers with Ender Stars
+- Fixed a security issue, by adding the mod SerializationIsBad [\#2146](https://github.com/EnigmaticaModpacks/Enigmatica2Expert/issues/2146)
+- Game crashes when you try to bucket Biomes O' Plenty poison [\#2143](https://github.com/EnigmaticaModpacks/Enigmatica2Expert/issues/2143)
+- Disable Cyclic fluid poison, to make BoPs the default one as it generates in world and causes crashes otherwise
+- Replace Shifting Star in a few recipes that could be uncraftable on servers with Ender Stars
 
 **Improvements**
 
--   Made Ender Stars a bit harder to craft, matching Shifting Star slightly
+- Made Ender Stars a bit harder to craft, matching Shifting Star slightly
 
 ---
 
