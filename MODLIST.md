@@ -1,7 +1,8 @@
-## Enigmatica 2 Expert - 1.91
+## Enigmatica 2 Expert - 1.92
 
 - [ActuallyAdditions-1.12.2-r152.jar](https://www.curseforge.com/minecraft/mc-mods/actually-additions/files/3117927) (by [Ellpeck](https://www.curseforge.com/members/Ellpeck/projects))
 - [ActuallyBaubles-1.12-1.1.jar](https://www.curseforge.com/minecraft/mc-mods/actually-baubles/files/2459131) (by [Jacky](https://www.curseforge.com/members/Jacky/projects))
+- [AdvancedBackups-forge-1.12-3.7.1.jar](https://www.curseforge.com/minecraft/mc-mods/advanced-backups/files/6148212) (by [HeatherWhite](https://www.curseforge.com/members/HeatherWhite/projects))
 - [generators-0.9.20.12-mc1.12.2.jar](https://www.curseforge.com/minecraft/mc-mods/advanced-generators/files/2516219) (by [bdew](https://www.curseforge.com/members/bdew/projects))
 - [AdvancedRocketry-1.12.2-2.0.0-17.jar](https://www.curseforge.com/minecraft/mc-mods/advanced-rocketry/files/4671856) (by [zmaster587](https://www.curseforge.com/members/zmaster587/projects))
 - [ae2stuff-0.7.0.4-mc1.12.2.jar](https://www.curseforge.com/minecraft/mc-mods/ae2-stuff/files/2491032) (by [bdew](https://www.curseforge.com/members/bdew/projects))
@@ -104,7 +105,6 @@
 - [backpack-3.0.2-1.12.2.jar](https://www.curseforge.com/minecraft/mc-mods/forge-backpacks/files/2554237) (by [Eydamos](https://www.curseforge.com/members/Eydamos/projects))
 - [FpsReducer-mc1.12.2-1.20.jar](https://www.curseforge.com/minecraft/mc-mods/fps-reducer/files/3362160) (by [bre2el](https://www.curseforge.com/members/bre2el/projects))
 - [framedcompactdrawers-1.2.7.jar](https://www.curseforge.com/minecraft/mc-mods/framed-compacting-drawers/files/3015136) (by [Eutro](https://www.curseforge.com/members/Eutro/projects))
-- [FTBBackups-1.1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge/files/2819669) (by [FTB](https://www.curseforge.com/members/FTB/projects))
 - [FTBLib-5.4.7.2.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-library-legacy-forge/files/2985811) (by [FTB](https://www.curseforge.com/members/FTB/projects))
 - [FTBUtilities-5.4.1.131.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-utilities-forge/files/3157548) (by [FTB](https://www.curseforge.com/members/FTB/projects))
 - [EnderIO-conduits-mekanism-1.12.2-5.3.72.jar](https://www.curseforge.com/minecraft/mc-mods/gas-conduits/files/4674242) (by [pupnewfster](https://www.curseforge.com/members/pupnewfster/projects))
@@ -115,6 +115,7 @@
 - [GunpowderLib-1.12.2-1.1.jar](https://www.curseforge.com/minecraft/mc-mods/gunpowderlib/files/3168863) (by [Jacky](https://www.curseforge.com/members/Jacky/projects))
 - [HorseTweaks_1.12.2-1.0.5.jar](https://www.curseforge.com/minecraft/mc-mods/horse-tweaks/files/2696995) (by [BlayTheNinth](https://www.curseforge.com/members/BlayTheNinth/projects))
 - [Hwyla-1.8.26-B41_1.12.2.jar](https://www.curseforge.com/minecraft/mc-mods/hwyla/files/2568751) (by [TehNut](https://www.curseforge.com/members/TehNut/projects))
+- [IC2-Patcher-2.0.12.jar](https://www.curseforge.com/minecraft/mc-mods/ic2-patcher/files/7181478) (by [Kanzaji](https://www.curseforge.com/members/Kanzaji/projects))
 - [ic2-tweaker-0.2.1+build.4.jar](https://www.curseforge.com/minecraft/mc-mods/ic2-tweaker/files/4136686) (by [tttusk](https://www.curseforge.com/members/tttusk/projects))
 - [iceandfire-1.9.1-1.12.2.jar](https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons/files/2939529) (by [sbom_xela](https://www.curseforge.com/members/sbom_xela/projects))
 - [ImmersiveEngineering-0.12-98.jar](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering/files/2974106) (by [BluSunrize](https://www.curseforge.com/members/BluSunrize/projects))
@@ -221,7 +222,6 @@
 - [stg-1.12.2-1.2.3.jar](https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass/files/2508268) (by [exidex](https://www.curseforge.com/members/exidex/projects))
 - [Tesla-1.12.2-1.0.63.jar](https://www.curseforge.com/minecraft/mc-mods/tesla/files/2487959) (by [DarkhaxDev](https://www.curseforge.com/members/DarkhaxDev/projects))
 - [tesla-core-lib-1.12.2-1.0.18.jar](https://www.curseforge.com/minecraft/mc-mods/tesla-core-lib/files/3438487) (by [face_of_cat](https://www.curseforge.com/members/face_of_cat/projects))
-- [TexFix V-1.12-4.0.jar](https://www.curseforge.com/minecraft/mc-mods/texfix/files/2518068) (by [Speiger](https://www.curseforge.com/members/Speiger/projects))
 - [Thaumcraft-1.12.2-6.1.BETA26.jar](https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2629023) (by [Azanor13](https://www.curseforge.com/members/Azanor13/projects))
 - [ThaumicInventoryScanning_1.12.2-2.0.10.jar](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning/files/2559089) (by [BlayTheNinth](https://www.curseforge.com/members/BlayTheNinth/projects))
 - [ThaumicComputers-MC1.12.2-0.5.1.jar](https://www.curseforge.com/minecraft/mc-mods/thaumic-computers/files/2777074) (by [jco2641](https://www.curseforge.com/members/jco2641/projects))
@@ -253,5 +253,6 @@
 - [WirelessCraftingTerminal-1.12.2-3.12.97.jar](https://www.curseforge.com/minecraft/mc-mods/wireless-crafting-terminal/files/2830252) (by [TheRealp455w0rd](https://www.curseforge.com/members/TheRealp455w0rd/projects))
 - [WrapUp-1.12-1.1.3.jar](https://www.curseforge.com/minecraft/mc-mods/wrapup/files/2486198) (by [TheLMiffy1111](https://www.curseforge.com/members/TheLMiffy1111/projects))
 - [xnet-1.12-1.8.2.jar](https://www.curseforge.com/minecraft/mc-mods/xnet/files/2745852) (by [McJty](https://www.curseforge.com/members/McJty/projects))
+- [XU2-Patcher-1.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/xu2-patcher/files/6596160) (by [Kanzaji](https://www.curseforge.com/members/Kanzaji/projects))
 - [YNot-0.2.4.jar](https://www.curseforge.com/minecraft/mc-mods/ynot/files/2708030) (by [asiekierka](https://www.curseforge.com/members/asiekierka/projects))
 - [zerocore-1.12-0.1.2.3.jar](https://www.curseforge.com/minecraft/mc-mods/zerocore/files/2648891) (by [ZeroNoRyouki](https://www.curseforge.com/members/ZeroNoRyouki/projects))
