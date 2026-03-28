@@ -607,3 +607,61 @@ for item in thaumcraftHintItems {
 	<astralsorcery:blockmarble>.addTooltip(format.aqua("Chisel Variations: Astral Sorcery & Unlimited Chisel Works"));
 	<chisel:marble2:7>.addTooltip(format.aqua("Chisel Variations: Chisel & Quark"));
 	<quark:marble>.addTooltip(format.aqua("Chisel Variations: Chisel & Quark"));
+
+# Cryo/Auero/Pyro etc can be gotten via dolls
+var elementalItems as IItemStack[] = [
+	<thermalfoundation:material:2048>,
+  <thermalfoundation:material:2049>,
+  <thermalfoundation:material:1025>,
+  <thermalfoundation:material:2050>,
+  <thermalfoundation:material:2051>,
+  <thermalfoundation:material:1026>,
+  <thermalfoundation:material:2052>,
+  <thermalfoundation:material:2053>,
+  <thermalfoundation:material:1027>
+];
+
+for item in elementalItems {
+	addDescription(item,
+  ["Thermal elemental mobs such as blizz spawn in specific biomes such as cold, mountain, or desert biomes.",
+   "They can also be spawned via ex nihilo creatio dolls.",
+    "Example: Freezing Doll - spawns a blizz",
+    "Search \"doll\" to see all dolls, or search the rod prefix in jei to find the right doll, such as \"blizz\", \"blitz\", \"blaze\", or \"basalz\"",
+    "Recommended to have a way to spawn/farm these mob types"]);
+}
+
+# Combustion Generator
+  addDescription(<enderio:block_combustion_generator>,
+  ["The combustion generator is effectively an upgrade/alternative to the Compression Dyanamo.", "",
+    "While the compression dynamo has a constant output and variable burn duration to each fuel, the combustion generator has a constant burn rate but variable output for each fuel.",
+    "This means fuels that burn slowly in the dynamo may burn faster in the combustion generator, but for more rf/t. And fuels that burn fast in the dynamo may burn slower in the combustion generator, but for less rf/t.",
+    "Fuel efficiency is buffed over compression dynamo and scales with capacitor level." ]);
+
+# Bioreactor
+  addDescription(<industrialforegoing:bioreactor>,
+  "Biofuel production is more efficient with more types of seeds in the bioreactor at once, up to double efficiency with 9 different seeds");
+
+# Biofuel Generator
+  addDescription(<industrialforegoing:biofuel_generator>,
+  ["The IF biofuel generator is more efficient than the compression dynamo (~6x power per bucket of biofuel), but generates less rf/t", "",
+    "Generates 4800 rf/t",
+    "Biofuel production is more efficient with more types of seeds in the bioreactor at once" ]);
+  addDescription(<liquid:biofuel>,
+  ["The IF biofuel generator is more efficient than the compression dynamo (~6x power per bucket of biofuel), but generates less rf/t", "",
+    "Generates 4800 rf/t",
+    "Biofuel production is more efficient with more types of seeds in the bioreactor at once" ]);
+
+
+# Protein Reactor
+  addDescription(<industrialforegoing:protein_reactor>,
+  "Protein production is more efficient with more types of meat in the reactor at once, up to double efficiency with 9 different meats");
+
+# Protein Generator
+  addDescription(<industrialforegoing:protein_generator>,
+  ["The IF protein generator is more efficient than the compression dynamo (~6x power per bucket of protein), but generates less rf/t", "",
+    "Generates 6400 rf/t",
+    "Protein production is more efficient with more types of meat in the protein reactor at once" ]);
+  addDescription(<liquid:if.protein>,
+  ["The IF protein generator is more efficient than the compression dynamo (~6x power per bucket of protein), but generates less rf/t", "",
+    "Generates 6400 rf/t",
+    "Protein production is more efficient with more types of meat in the protein reactor at once" ]);
