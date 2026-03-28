@@ -79,6 +79,24 @@ import mods.jei.JEI.removeAndHide as rh;
 	recipes.addShapeless("Ex Nihilo JAOPCA Uranium", <immersiveengineering:ore:5>, [<ore:pieceUranium>, <ore:pieceUranium>, <ore:pieceUranium>, <ore:pieceUranium>]);
 	recipes.addShapeless("Ex Nihilo JAOPCA Osmium", <mekanism:oreblock>, [<ore:pieceOsmium>,<ore:pieceOsmium>,<ore:pieceOsmium>,<ore:pieceOsmium>]);
 
+#Ex Nihilo ores to pieces
+    recipes.addShapeless("Ex Nihilo Ardite Ore", <ore:pieceArdite> * 4, [<tconstruct:ore:1>]);
+    recipes.addShapeless("Ex Nihilo Cobalt Ore", <ore:pieceCobalt> * 4, [<tconstruct:ore>]);
+    recipes.addShapeless("Ex Nihilo Nickel Ore", <ore:pieceNickel> * 4, [<thermalfoundation:ore:5>]);
+    recipes.addShapeless("Ex Nihilo Silver Ore", <ore:pieceSilver> * 4, [<thermalfoundation:ore:2>]);
+    recipes.addShapeless("Ex Nihilo Lead Ore", <ore:pieceLead> * 4, [<thermalfoundation:ore:3>]);
+    recipes.addShapeless("Ex Nihilo Aluminomnomnom Ore", <ore:pieceAluminum> * 4, [<thermalfoundation:ore:4>]);
+    recipes.addShapeless("Ex Nihilo Tin Ore", <ore:pieceTin> * 4, [<thermalfoundation:ore:1>]);
+    recipes.addShapeless("Ex Nihilo Copper Ore", <ore:pieceCopper> * 4, [<thermalfoundation:ore>]);
+    recipes.addShapeless("Ex Nihilo Iron Ore", <ore:pieceIron> * 4, [<minecraft:iron_ore>]);
+    recipes.addShapeless("Ex Nihilo Gold Ore", <ore:pieceGold> * 4, [<minecraft:gold_ore>]);
+    recipes.addShapeless("Ex Nihilo JAOPCA Thorium Ore", <ore:pieceThorium> * 4, [<nuclearcraft:ore:3>]);
+    recipes.addShapeless("Ex Nihilo JAOPCA Magnesium Ore", <ore:pieceMagnesium> * 4, [<nuclearcraft:ore:7>]);
+    recipes.addShapeless("Ex Nihilo JAOPCA Lithium Ore", <ore:pieceLithium> * 4, [<nuclearcraft:ore:6>]);
+    recipes.addShapeless("Ex Nihilo JAOPCA Boron Ore", <ore:pieceBoron> * 4, [<nuclearcraft:ore:5>]);
+    recipes.addShapeless("Ex Nihilo JAOPCA Uranium Ore", <ore:pieceUranium> * 4, [<immersiveengineering:ore:5>]);
+    recipes.addShapeless("Ex Nihilo JAOPCA Osmium Ore", <ore:pieceOsmium> * 4, [<mekanism:oreblock>]);
+	
 # *======= Remove & Hide =======*
 
 # Uncompressed Coal

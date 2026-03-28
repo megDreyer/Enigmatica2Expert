@@ -287,7 +287,7 @@ mods.thermalexpansion.Insolator.addRecipe(<harvestcraft:sesameseedsitem> * 2, <t
 mods.thermalexpansion.Insolator.addRecipe(<harvestcraft:sesameseedsitem> * 3, <thermalfoundation:fertilizer:2>, <harvestcraft:sesameseedsseeditem>, 9600, <harvestcraft:sesameseedsseeditem>, 150, 2400);
 
 # Add Mending Moss to Arcane Ensorcellator
-mods.thermalexpansion.Enchanter.addRecipe(<tconstruct:materials:19>, <tconstruct:materials:18>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 70, lvl: 1}]}), 1000000, 1000, false);
+mods.thermalexpansion.Enchanter.addRecipe(<tconstruct:materials:19>, <tconstruct:materials:18>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 70 as short, lvl: 1 as short}]}), 250000, 5000, false);
 
 # Add Magical Wood Large Plate to Compactor
-mods.thermalexpansion.Compactor.addPressRecipe(<tconstruct:large_plate>.withTag({Material: "xu_magical_wood"}), <extrautils2:decorativesolidwood:1> * 8, 20000);
+mods.thermalexpansion.Compactor.addPressRecipe(<tconstruct:large_plate>.withTag({Material: "xu_magical_wood"}), <extrautils2:decorativesolidwood:1> * 8, 100000);

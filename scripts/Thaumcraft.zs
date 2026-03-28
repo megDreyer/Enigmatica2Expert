@@ -39,9 +39,6 @@ mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:oreLead>, <thermalfoundation
 	<chiselsandbits:chiseled_iron>.setAspects(<aspect:desiderium> * 1);
 	<ic2:dust:21>.setAspects(<aspect:metallum> * 1);
 	
-# Temp Recipes
-	recipes.addShapedMirrored("Temporary Void Seed Recipe", <thaumcraft:void_seed> * 4, [[<ore:mycelium>, <ore:crystalLonsdaleite>, <ore:mycelium>],[<ore:crystalLonsdaleite>, <mysticalagriculture:crafting:21>, <ore:crystalLonsdaleite>], [<ore:mycelium>, <ore:crystalLonsdaleite>, <ore:mycelium>]]);
-
 # Wood Table
 	recipes.remove(<thaumcraft:table_wood>);
 	recipes.addShapedMirrored("Wood Table", 
