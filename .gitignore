@@ -1,3 +1,11 @@
+# Local instance files
+/.claude/
+/backups/
+/user-prefs.json
+/nul
+/GenerateChangelog.ps1
+/vintagefix/
+
 # Folders to ignore
 /journeymap/
 /dumps/
