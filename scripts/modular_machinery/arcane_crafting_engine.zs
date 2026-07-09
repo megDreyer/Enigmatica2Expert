@@ -202,3 +202,18 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_essentia_funnel",
 	.addItemInput(<minecraft:stone:*>)
 	.addItemInput(<ore:ingotThaumium>)
 	.build();
+
+# Void Seeds
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_void_seed", machineName, 25)
+	.addItemOutput(<thaumcraft:void_seed>)
+	.addItemInput(<ore:mycelium>)
+	.addItemInput(<ore:crystalLonsdaleite>)
+	.addItemInput(<mysticalagriculture:crafting:21>)
+	.build();
+
+# Essentia Buffer
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_tube_buffer", machineName, 60)
+	.addItemOutput(<thaumcraft:tube_buffer>)
+	.addItemInput(<thaumcraft:tube>)
+	.addItemInput(<nuclearcraft:buffer>)
+	.build();

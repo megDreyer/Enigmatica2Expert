@@ -164,3 +164,33 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_wyvern_energy_cor
 	.addItemInput(<draconicevolution:draconic_core>)
 	.addFluidInput(<liquid:redstone> * 10000)
 	.build();
+
+#Dissipation Charge
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dissipation_charge", machineName, 10)
+    .addEnergyPerTickInput(5000)
+    .addItemOutput(<forestry:crafting_material:4>)
+    .addItemInput(<forestry:can>)
+    .addItemInput(<forestry:honeydew>)
+    .addItemInput(<forestry:royal_jelly>*2)
+    .addItemInput(<minecraft:gunpowder>)
+    .addFluidInput(<liquid:water> * 2000)
+    .build();
+
+#Iodine Capsule
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_iodine_capsule", machineName, 10)
+    .addEnergyPerTickInput(5000)
+    .addItemOutput(<forestry:iodine_capsule>)
+    .addItemInput(<forestry:can>)
+    .addItemInput(<forestry:honey_drop>)
+    .addItemInput(<forestry:pollen>*2)
+    .addItemInput(<minecraft:gunpowder>)
+    .addFluidInput(<liquid:water> * 2000)
+    .build();
+
+#Woven Silk
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_woven_silk", machineName, 10)
+    .addEnergyPerTickInput(5000)
+    .addItemOutput(<forestry:crafting_material:3>)
+    .addItemInput(<forestry:crafting_material:2>*5)
+    .addFluidInput(<liquid:water> * 1000)
+    .build();

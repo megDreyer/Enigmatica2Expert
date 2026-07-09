@@ -1,29 +1,29 @@
 import mods.jei.JEI.removeAndHide as rh;
 #modloaded exnihilocreatio
 
-	
+
 # End Cake
 	recipes.remove(<exnihilocreatio:block_end_cake>);
-	recipes.addShaped("End Cake", 
-	<exnihilocreatio:block_end_cake>, 
+	recipes.addShaped("End Cake",
+	<exnihilocreatio:block_end_cake>,
 	[[<ore:foodCake>, <actuallyadditions:block_misc:8>, <ore:foodCake>],
-	[<actuallyadditions:block_misc:8>, <minecraft:end_crystal>, <actuallyadditions:block_misc:8>], 
+	[<actuallyadditions:block_misc:8>, <minecraft:end_crystal>, <actuallyadditions:block_misc:8>],
 	[<ore:foodCake>, <actuallyadditions:block_misc:8>, <ore:foodCake>]]);
 
 # Wooden Hammer (conflict with C&B Wrench)
 	recipes.remove(<exnihilocreatio:hammer_wood>);
-	recipes.addShapedMirrored("ExNihilo Wooden Hammer", 
-	<exnihilocreatio:hammer_wood>, 
+	recipes.addShapedMirrored("ExNihilo Wooden Hammer",
+	<exnihilocreatio:hammer_wood>,
 	[[null, <ore:plankWood>, <ore:stickWood>],
-	[null, <ore:stickWood>, <ore:plankWood>], 
+	[null, <ore:stickWood>, <ore:plankWood>],
 	[<ore:stickWood>, null, null]]);
 
 # Stone Barrel
 	recipes.remove(<exnihilocreatio:block_barrel1>);
-	recipes.addShaped("Stone Barrel", 
-	<exnihilocreatio:block_barrel1>, 
+	recipes.addShaped("Stone Barrel",
+	<exnihilocreatio:block_barrel1>,
 	[[<minecraft:stone>, null, <minecraft:stone>],
-	[<minecraft:stone>, null, <minecraft:stone>], 
+	[<minecraft:stone>, null, <minecraft:stone>],
 	[<minecraft:stone>, <ore:obsidian>, <minecraft:stone>]]);
 
 # Netherrack -> Crushed Netherrack recipe
@@ -41,9 +41,9 @@ import mods.jei.JEI.removeAndHide as rh;
 # Sieve
 	recipes.remove(<exnihilocreatio:block_sieve>);
 	recipes.addShaped("Ex Nihilo Sieve",
-	<exnihilocreatio:block_sieve>, 
+	<exnihilocreatio:block_sieve>,
 	[[<ore:plateNickel>, <ore:itemEnrichedAlloy>, <ore:plateNickel>],
-	[<ore:plankWood>, <ore:gearMithril>, <ore:plankWood>], 
+	[<ore:plankWood>, <ore:gearMithril>, <ore:plankWood>],
 	[<ore:stickWood>, null, <ore:stickWood>]]);
 
 # Heavy Sieves
@@ -53,14 +53,14 @@ import mods.jei.JEI.removeAndHide as rh;
 	recipes.remove(<excompressum:heavy_sieve:3>);
 	recipes.remove(<excompressum:heavy_sieve:4>);
 	recipes.remove(<excompressum:heavy_sieve:5>);
-	
+
 	recipes.addShaped(<excompressum:heavy_sieve>, [[<minecraft:log>, null, <minecraft:log>],[<minecraft:log>, <exnihilocreatio:block_sieve>, <minecraft:log>], [<ore:stickWood>, null, <ore:stickWood>]]);
 	recipes.addShaped(<excompressum:heavy_sieve:1>, [[<minecraft:log:1>, null, <minecraft:log:1>],[<minecraft:log:1>, <exnihilocreatio:block_sieve>, <minecraft:log:1>], [<ore:stickWood>, null, <ore:stickWood>]]);
 	recipes.addShaped(<excompressum:heavy_sieve:2>, [[<minecraft:log:2>, null, <minecraft:log:2>],[<minecraft:log:2>, <exnihilocreatio:block_sieve>, <minecraft:log:2>], [<ore:stickWood>, null, <ore:stickWood>]]);
 	recipes.addShaped(<excompressum:heavy_sieve:3>, [[<minecraft:log:3>, null, <minecraft:log:3>],[<minecraft:log:3>, <exnihilocreatio:block_sieve>, <minecraft:log:3>], [<ore:stickWood>, null, <ore:stickWood>]]);
 	recipes.addShaped(<excompressum:heavy_sieve:4>, [[<minecraft:log2>, null, <minecraft:log2>],[<minecraft:log2>, <exnihilocreatio:block_sieve>, <minecraft:log2>], [<ore:stickWood>, null, <ore:stickWood>]]);
 	recipes.addShaped(<excompressum:heavy_sieve:5>, [[<minecraft:log2:1>, null, <minecraft:log2:1>],[<minecraft:log2:1>, <exnihilocreatio:block_sieve>, <minecraft:log2:1>], [<ore:stickWood>, null, <ore:stickWood>]]);
-	
+
 # Ex Nihilo dust conversion to ores
 	recipes.addShapeless("Ex Nihilo Ardite", <tconstruct:ore:1>, [<ore:pieceArdite>, <ore:pieceArdite>, <ore:pieceArdite>, <ore:pieceArdite>]);
 	recipes.addShapeless("Ex Nihilo Cobalt", <tconstruct:ore>, [<ore:pieceCobalt>, <ore:pieceCobalt>, <ore:pieceCobalt>, <ore:pieceCobalt>]);
@@ -79,6 +79,24 @@ import mods.jei.JEI.removeAndHide as rh;
 	recipes.addShapeless("Ex Nihilo JAOPCA Uranium", <immersiveengineering:ore:5>, [<ore:pieceUranium>, <ore:pieceUranium>, <ore:pieceUranium>, <ore:pieceUranium>]);
 	recipes.addShapeless("Ex Nihilo JAOPCA Osmium", <mekanism:oreblock>, [<ore:pieceOsmium>,<ore:pieceOsmium>,<ore:pieceOsmium>,<ore:pieceOsmium>]);
 
+# Ex Nihilo ores to pieces (aka compacting drawer compat)
+  recipes.addShapeless("Ex Nihilo Ardite Ore",            <exnihilocreatio:item_ore_ardite> * 4,    [<tconstruct:ore:1>]);
+  recipes.addShapeless("Ex Nihilo Cobalt Ore",            <exnihilocreatio:item_ore_cobalt> * 4,    [<tconstruct:ore>]);
+  recipes.addShapeless("Ex Nihilo Nickel Ore",            <exnihilocreatio:item_ore_nickel> * 4,    [<thermalfoundation:ore:5>]);
+  recipes.addShapeless("Ex Nihilo Silver Ore",            <exnihilocreatio:item_ore_silver> * 4,    [<thermalfoundation:ore:2>]);
+  recipes.addShapeless("Ex Nihilo Lead Ore",              <exnihilocreatio:item_ore_lead> * 4,      [<thermalfoundation:ore:3>]);
+  recipes.addShapeless("Ex Nihilo Aluminomnomnom Ore",    <exnihilocreatio:item_ore_aluminum> * 4,  [<thermalfoundation:ore:4>]);
+  recipes.addShapeless("Ex Nihilo Tin Ore",               <exnihilocreatio:item_ore_tin> * 4,       [<thermalfoundation:ore:1>]);
+  recipes.addShapeless("Ex Nihilo Copper Ore",            <exnihilocreatio:item_ore_copper> * 4,    [<thermalfoundation:ore>]);
+  recipes.addShapeless("Ex Nihilo Iron Ore",              <exnihilocreatio:item_ore_iron> * 4,      [<minecraft:iron_ore>]);
+  recipes.addShapeless("Ex Nihilo Gold Ore",              <exnihilocreatio:item_ore_gold> * 4,      [<minecraft:gold_ore>]);
+  recipes.addShapeless("Ex Nihilo JAOPCA Thorium Ore",    <jaopca:item_piecethorium> * 4,           [<nuclearcraft:ore:3>]);
+  recipes.addShapeless("Ex Nihilo JAOPCA Magnesium Ore",  <jaopca:item_piecemagnesium> * 4,         [<nuclearcraft:ore:7>]);
+  recipes.addShapeless("Ex Nihilo JAOPCA Lithium Ore",    <jaopca:item_piecelithium> * 4,           [<nuclearcraft:ore:6>]);
+  recipes.addShapeless("Ex Nihilo JAOPCA Boron Ore",      <jaopca:item_pieceboron> * 4,             [<nuclearcraft:ore:5>]);
+  recipes.addShapeless("Ex Nihilo JAOPCA Uranium Ore",    <jaopca:item_pieceuranium> * 4,           [<immersiveengineering:ore:5>]);
+  recipes.addShapeless("Ex Nihilo JAOPCA Osmium Ore",     <jaopca:item_pieceosmium> * 4,            [<mekanism:oreblock>]);
+
 # *======= Remove & Hide =======*
 
 # Uncompressed Coal
@@ -90,7 +108,7 @@ import mods.jei.JEI.removeAndHide as rh;
 	rh(<excompressum:compressed_block:4>);
 	rh(<excompressum:compressed_block:1>);
 	rh(<excompressum:compressed_block:9>);
-	
+
 # Crucibles
 	rh(<excompressum:wooden_crucible>);
 	rh(<excompressum:wooden_crucible:1>);
@@ -98,11 +116,11 @@ import mods.jei.JEI.removeAndHide as rh;
 	rh(<excompressum:wooden_crucible:3>);
 	rh(<excompressum:wooden_crucible:4>);
 	rh(<excompressum:wooden_crucible:5>);
-	
+
 	rh(<exnihilocreatio:block_crucible>);
 	rh(<exnihilocreatio:block_crucible_wood>);
 	rh(<exnihilocreatio:block_crucible:1>);
-	
+
 # Ex Nihilo Ore chunks - Replacing with "real" ore
 	rh(<exnihilocreatio:item_ore_gold:1>);
 	rh(<exnihilocreatio:item_ore_iron:1>);

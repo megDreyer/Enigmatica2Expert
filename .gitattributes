@@ -1,0 +1,6 @@
+* text=auto eol=crlf
+*.sh text eol=lf
+*.nbt binary
+*.jar binary
+*.dll binary
+*.png binary
